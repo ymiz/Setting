@@ -14,15 +14,31 @@
     <autogen>--KeyToKey-- KeyCode::CONTROL_L, KeyCode::COMMAND_L</autogen>        
    </item>
    <item>
-            <name>Eisuu+hjkl to Left/Down/Up/Right</name>
-            <identifier>option.vimode_eisuu_hjkl</identifier>
-            <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
-            <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::EXTRA1, KeyCode::CURSOR_LEFT</autogen>
-            <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::EXTRA1, KeyCode::CURSOR_DOWN</autogen>
-            <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::EXTRA1, KeyCode::CURSOR_UP</autogen>
-            <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::EXTRA1, KeyCode::CURSOR_RIGHT</autogen>
-            <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::EXTRA1, KeyCode::DELETE</autogen>
-            <autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::EXTRA1, KeyCode::RETURN</autogen>
-        </item>
+        <name>Eisuu+hjkl to Left/Down/Up/Right</name>
+        <identifier>option.vimode_eisuu_hjkl</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::JIS_EISUU, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::EXTRA1, KeyCode::CURSOR_LEFT</autogen>
+        <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::EXTRA1, KeyCode::CURSOR_DOWN</autogen>
+        <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::EXTRA1, KeyCode::CURSOR_UP</autogen>
+        <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::EXTRA1, KeyCode::CURSOR_RIGHT</autogen>
+        <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::EXTRA1, KeyCode::DELETE</autogen>
+        <autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::EXTRA1, KeyCode::RETURN</autogen>
+    </item>
+    <item>
+        <name>Option+hjkl to Left/Down/Up/Right</name>
+        <identifier>private.vimode_option_hjkl</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::OPTION_L, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_EISUU</autogen>
+        <autogen>--KeyToKey-- KeyCode::H, ModifierFlag::EXTRA1, KeyCode::CURSOR_LEFT</autogen>
+        <autogen>--KeyToKey-- KeyCode::J, ModifierFlag::EXTRA1, KeyCode::CURSOR_DOWN</autogen>
+        <autogen>--KeyToKey-- KeyCode::K, ModifierFlag::EXTRA1, KeyCode::CURSOR_UP</autogen>
+        <autogen>--KeyToKey-- KeyCode::L, ModifierFlag::EXTRA1, KeyCode::CURSOR_RIGHT</autogen>
+        <autogen>--KeyToKey-- KeyCode::N, ModifierFlag::EXTRA1, KeyCode::DELETE</autogen>
+        <autogen>--KeyToKey-- KeyCode::SPACE, ModifierFlag::EXTRA1, KeyCode::RETURN</autogen>
+    </item>
+    <item>
+        <name>Option to Kana</name>
+        <identifier>private.option_kana</identifier>
+        <autogen>--KeyOverlaidModifier-- KeyCode::OPTION_R, KeyCode::VK_MODIFIER_EXTRA1, KeyCode::JIS_KANA</autogen>
+    </item>
   </list>
  </root>
